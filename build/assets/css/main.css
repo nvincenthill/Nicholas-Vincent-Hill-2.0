@@ -1727,6 +1727,7 @@ header > p {
   color: rgb(54, 54, 54, 0);
   transition: transform 0.3s ease-out;
   -webkit-transition: transform 0.3s ease-out;
+  border-radius: 0 5em 5em 0;
 }
 
 .slide-content-text {
@@ -1753,6 +1754,14 @@ header > p {
   position: static;
   font-size: 3em;
   margin-bottom: 0.5em;
+}
+
+#contact-header {
+  text-align: center;
+}
+
+#contact-blurb {
+  text-align: center;
 }
 
 /* Button */
