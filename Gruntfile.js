@@ -9,12 +9,13 @@ module.exports = function(grunt) {
       },
       dist: {
         options: {
-          bucket: "www.nickvh.fun"
+          bucket: "www.nickvh.fun",
+          differential: true
         },
         files: [
           {
             expand: true,
-            cwd: "",
+            cwd: "build",
             src: ["**"],
             dest: ""
           }
