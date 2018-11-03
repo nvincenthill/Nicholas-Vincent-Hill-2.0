@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       },
       dist: {
         options: {
-          bucket: "www.nickvh.fun",
+          bucket: "nickvh.tech",
           differential: true
         },
         files: [
